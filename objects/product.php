@@ -50,8 +50,16 @@
     public function delete()
     {
         // select all query
-        $queryDelete = 'DELETE FROM '. $this->table_name . ' WHERE id = 5;';
+        $queryDelete = 'DELETE FROM '. $this->table_name . ' WHERE id = 7;';
         $resultDelete = $this->conn->query($queryDelete);
         return $resultDelete;
+    }
+
+    public function update()
+    {
+        // select all query
+        $queryUpdate = 'UPDATE ' . $this->table_name . ' SET naam = "cola-light3"' . ' WHERE id = 8;';
+        $resultUpdate = $this->conn->query($queryUpdate);
+        return $resultUpdate;
     }
 }
