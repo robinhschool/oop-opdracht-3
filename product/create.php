@@ -30,7 +30,7 @@ $result = $product->create($insertArray);
 
 ?>
 
-<form action="http://localhost/school-tweede/oop3-github/glu-base-api/product/create.php" method="post">
+<form action="http://localhost/school-tweede/oop3-github/oop-opdracht-3/product/create.php" method="post">
     <input type="text" name="naam" id="naam" placeholder="Naam product" required>
     <input type="text" name="beschrijving" id="beschrijving" placeholder="Beschrijving product" required>
     <input type="number" name="prijs" id="prijs" placeholder="prijs product" required>

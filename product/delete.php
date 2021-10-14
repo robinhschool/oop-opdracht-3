@@ -15,3 +15,9 @@ $product = new Product($db);
 // query products
 
 var_dump($resultDelete);
+
+$result = $product->delete();
+
+echo $result;
+
+?>

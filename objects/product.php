@@ -50,7 +50,7 @@
     public function delete()
     {
         // select all query
-        $queryDelete = 'DELETE FROM WHERE id = 1;' . $this->table_name;
+        $queryDelete = 'DELETE FROM '. $this->table_name . ' WHERE id = 5;';
         $resultDelete = $this->conn->query($queryDelete);
         return $resultDelete;
     }
